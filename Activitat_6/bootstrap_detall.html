@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estils_detall.css">
+
+    <title>Página de Sergio</title>
+</head>
+
+<body>
+    <header class="bg-custom text-white py-3">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <img class="logo" src="imatges/logo.svg" alt="logo">
+                <div class="botones-header">
+                    <button class="btn btn_acceso text-white">Acceso</button>
+                    <a href="bootstrap_registro.html" class="btn btn_registro text-white">Registro</a>
+                </div>
+                <img class="acceso" src="imatges/acceso.png" alt="acceso">
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link menu" href="index_bootstrap.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link menu">Novedades</a></li>
+                    <li class="nav-item"><a class="nav-link menu">Literatura</a></li>
+                    <li class="nav-item"><a class="nav-link menu">Ciencia Ficción</a></li>
+                    <li class="nav-item"><a class="nav-link menu">Cocina y Gastronomía</a></li>
+                    <li class="nav-item"><a class="nav-link menu">Viajes y Ocio</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container" role="main">
+        <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Buscar">
+            <a href="bootstrap_cerca.html" class="btn btn-custom">Buscar</a>
+        </form>
+    </div>
+
+    <div class="container" role="main">
+        <main>
+            <section>
+                <div class="grupo">
+                    <h3 class="detalle h3">Detalle Libro</h3>
+                    <article>
+                        <img class="detalle" src="imatges/libro.jpg" alt="libro">
+                    </article>
+                </div>
+                <div class="grupo row">
+                    <h3 class="descripción">Descripción</h3>
+                    <article class="col-md-12">
+                        <div class="item">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mi urna, rhoncus et consequat sit amet, faucibus at tortor. Fusce tempor tincidunt porttitor. Integer vestibulum quam ut ante efficitur, in vestibulum leo imperdiet. Pellentesque fringilla mattis leo et vulputate. Morbi malesuada nibh a odio facilisis volutpat. Aliquam finibus congue urna, sit amet fringilla velit varius sit amet. Suspendisse a sapien ullamcorper, finibus arcu eu, rutrum ipsum. Maecenas nec velit rutrum nibh rhoncus molestie in at nulla. Phasellus mollis euismod vehicula. Cras semper est vitae libero auctor porta. Vestibulum sed sem eget libero consectetur varius vitae at quam.</p>        
+                            <p>Autor: Sergio Ramírez Luque</p>  
+                            <p>Año: 2024</p>
+                            <button class="btn btn_compra">Comprar</button>
+                        </div>
+                    </article>
+                </div>    
+                <div class="grupo row">
+                    <h3 class="top h3">Top Ventas</h3>
+                    <article class="col-md-4">
+                        <div class="item">
+                            <a href="bootstrap_detall.html">
+                                <img class="libro" src="imatges/libro.jpg" alt="novedad">
+                            </a>
+                            <button class="btn btn_compra">Comprar</button>
+                        </div>
+                    </article>
+                    <article class="col-md-4">
+                        <div class="item">
+                            <a href="bootstrap_detall.html">
+                                <img class="libro" src="imatges/libro.jpg" alt="novedad">
+                            </a>
+                            <button class="btn btn_compra">Comprar</button>
+                        </div>
+                    </article>
+                    <article class="col-md-4">
+                        <div class="item">
+                            <a href="bootstrap_detall.html">
+                                <img class="libro" src="imatges/libro.jpg" alt="novedad">
+                            </a>
+                            <button class="btn btn_compra">Comprar</button>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </main>
+
+
+    </div>
+
+    <footer class="text-white py-3">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <button class="btn btn_contacto">Contacto</button>
+                <div class="d-flex align-items-center"> 
+                    <img class="email me-2" src="imatges/email.png" alt="email"> 
+                    <img class="telefono me-2" src="imatges/telefono.png" alt="telefono"> 
+                    <img class="linkedin me-2" src="imatges/linkedin.png" alt="linkedin"> 
+                </div>
+                <div> 
+                    <a href="#" class="text-white me-2">Política</a> 
+                    <a href="#" class="text-white">Preguntas Frecuentes</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
